@@ -1,0 +1,6 @@
+#ignore .terraform directories
+**/.terraform/*
+#ignore tfstate files
+*.tfstate.*
+#Env files
+*.tfvars
