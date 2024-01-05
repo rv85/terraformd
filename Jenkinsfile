@@ -3,7 +3,11 @@ pipeline {
     stages {
         stage ("welcome") {
             steps {
-                echo "this is hotfix branch"
+
+
+                echo "this is main branch"
+
+
             }
         }
     }
