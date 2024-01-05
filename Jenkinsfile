@@ -1,10 +1,10 @@
 pipeline {
-  ageny any
-  stages {
-    stage ("welcome") {
-      steps {
-        echo "this is coming from dev branch"
-      }
+    agent any
+    stages {
+        stage ("welcome") {
+            steps {
+                echo "this is dev branch"
+            }
+        }
     }
-  }
 }
